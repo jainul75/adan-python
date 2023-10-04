@@ -71,7 +71,7 @@ for i in file:
     i = i.rstrip()
     if i.startswith('Subject:'):
         count += 1
-print(count)
+print(f'There were {count} subject lines in mbox.txt')
 
 
 
