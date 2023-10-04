@@ -1,4 +1,9 @@
 # exercise 03
+"""
+Encapsulate this code in a function named count, and generalize it so that it
+accepts the string and the letter as arguments.
+"""
+
 def count(latter):      # create a function for latter count
     count = 0
     word = input('Write: ')
@@ -11,6 +16,12 @@ def count(latter):      # create a function for latter count
 count('abc')    # call the function
 
 # exercise 5
+"""
+Take the following Python code that stores a string:‘
+str = ’X-DSPAM-Confidence:0.8475’
+Use find and string slicing to extract the portion of the string after the colon character and 
+then use the float function to convert the extracted string into a floating point number.
+"""
 str_val = 'X-DSPAM-Confidence: 0.8475'
 print(str_val)
 x = str_val.find(':')
